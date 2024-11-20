@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Fontes*/
+  
+h1, h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+h3{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    font-family: "Host Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*Estilos*/
+
+/*Geral*/
+
+.conteudo-principal{
+    color: #dbdbdb;
+}
+
+/*Cabeçalho*/
+
+.conteudo-principal header{
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a1128;
+    padding: 30px;
+    
+    
+}
+
+header h1{
+    font-size: 50px;
+    padding: 12px;
+}
+
+header h3{
+    font-size: 30px;
+    padding: 7px;
+}
+
+header p{
+    font-size: 18px;
+    margin: 0 190px 0 190px;
+    padding: 7px;
+}
+
+/*Nav*/
+
+nav{
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #001f54;
+}
+
+nav a{
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    padding: 20px 18px 20px 18px;
+    margin-left: 80px;
+    border: 2px solid #0a1128;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    background-color: #0a1128;
+}
+
+/*Livros*/
+
+.conteudo-livro{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #0f0f0f;
+    margin: 40px 35px 40px 35px;
+    padding: 20px;
+}
+
+.conteudo-livro h2{
+    font-size: 60px;
+}
+
+.conteudo-livro p{
+    font-size: 18px;
+    margin: 20px 25px 20px 25px
+}
+
+.conteudo-livro img{
+    width: 280px;
+    margin: 20px 0 20px 0;
+}
+
+/*Footer*/
+
+footer{
+    color: #dbdbdb;
+    background-color: #0a1128;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{
+    padding: 20px;
+    text-decoration: underline;
+    color: #dbdbdb;
+}
